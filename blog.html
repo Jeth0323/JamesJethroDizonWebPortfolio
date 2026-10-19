@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blogs </title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="style.css" />
+<meta name="description" content="Hi, I'm James — an IT student from the Philippines learning web development and looking for an internship." />
+<meta name="keywords" content="IT web developer, internship, James Jethro Dizon, Jethro Dizon">
+<meta name="author" content="James Jethro Dizon">
+</head>
+<body>
+
+  <header class="top-navbar">
+    <a href="index.html" class="logo-wraper"><img src="images/logo.png" alt="logo" class="mylogo" /></a>
+    <nav class="nav-mnu">
+      <a href="index.html" class="nav-item">home</a>
+      <a href="about.html" class="nav-item">about</a>
+      <a href="projects.html" class="nav-item">projects</a>
+      <a href="blog.html" class="nav-item active">blog</a>
+      <a href="contact.html" class="nav-item">contact</a>
+    </nav>
+    <button class="hamburgr" id="hamburgr" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobi-menu" id="mobiMenu">
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+    <a href="projects.html">projects</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+  </div>
+
+  <main>
+    <div class="inrpage-header">
+      <p class="small-title">— blog</p>
+      <h1>My dev<br><em>journal</em></h1>
+      <p>Just writing down things I'm learning and figuring out as I go. Nothing expert-level as of now just honest notes from a student.</p>
+    </div>
+      <!-- Blog posts -->
+      <div class="blog-conatiner">
+        <div class="blog-list">
+
+          <article class="blogcard fadein">
+            <div class="blog-imgarea blog1bg">
+              <div class="blog-catgry">Experience</div>
+            </div>
+            <div class="blog-txtarea">
+              <p class="blog-date-info">March 2026 · 4 min read</p>
+              <h2 class="blog-titl">Emotions that leads me to find my passion to do Web Development</h2>
+              <p class="blog-prevw">I want to discuss how it all started for me in taking the Web Development</p>
+              <button class="readmore-btn" onclick="togglePost('post1', this)">read more</button>
+              <div class="article-hiddn" id="post1">
+                <div class="article-txt">
+                  <h4>1. Boredom</h4>
+                  <p>During the pandemic there was not much to do as everything shifts to online. I became bored at home with so little to do but so much time to spend at home so i think of how much online oriented the world will be after the pandemic then i think of web developing.</p>
+                  <h4>2. Curiousity</h4>
+                  <p>After a few days of being bored at home i became curious of how websites are made and how are they able to format it.</p>
+                  <h4>3. Dissapointment</h4>
+                  <p>After becoming curious i tried to replicate things involving web development that i saw in YouTube but to no avail i always failed or made an error.</p>
+                  <h4>4. Satisfaction</h4>
+                  <p>After many failed attempts of making a small webpage i finally overcame the failure when i was able to make something similar to a website from a YouTube video and finally being satisfied with my creation.</p>
+                  <h4>5. Happiness</h4>
+                  <p>After overcaming multiple attempts in Web Developing and being satisfied with my results i decided to challenge myself to learn more and improve my shortcomings Then it finally clicks on me that this is what i wanted to do and pursue.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="blogcard fadein delay1">
+            <div class="blog-imgarea blog2bg">
+              <div class="blog-catgry">Tips & Tools</div>
+            </div>
+            <div class="blog-txtarea">
+              <p class="blog-date-info">March 2026 3 min read</p>
+              <h2 class="blog-titl">IT tools and platforms that i discovered and help me as a Web Developer and Designer</h2>
+              <p class="blog-prevw">Back at my first year of college i often make mistaakes and got confused but luckily for me i found some IT tools that helped me improve my fundamentals</p>
+              <button class="readmore-btn" onclick="togglePost('post2', this)">read more</button>
+              <div class="article-hiddn" id="post2">
+                <div class="article-txt">
+                  <h4>1. Figma</h4>
+                  <p>This is a online website platform that i use to make frameworks for my website. The advantage of Figma is that it helps you make clear frameworks and possible animations so that you can have an idea how to develop and design your own website.</p>
+                  <h4>2. FreeCodeCamp</h4>
+                  <p>FreeCodeCamp is an online platform that can teach you tutorials regarding programming languages like python, Java, JavaScript, PHP and others. This is a very useful website as not only it can teach you beginner lesson but also advance and difficult lessons. Another advantage of FreeCodeCamp is its forum as you can ask questions, ask solutions, give advice, and others from other people that uses FreeCodeCamp may it be a fellow students or professionals.</p>
+                  <h4>3. W3SCHOOL</h4>
+                  <p>This is probably the most used platforms in learning the basics of Web Development but it earned its spot because it completely explained the basics of Web Development in a completely detailed and fun version. For Web Developers knowing the fundamentals is the most important thing because how can you advance if the fundamentals is challenging for you.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="testimonials-area fadein">
+        <h2>what are the people's feedback on me</h2>
+        <div class="testimonials-list">
+
+          <blockquote class="testi-blok">
+            <div class="star-ratng">★★★★★</div>
+            <p class="testi-txt">"His problem-solving skills and creativity set him apart. James brings fresh ideas and innovation to every project."</p>
+            <footer class="testi-persn">
+              <div class="testi-avtr avatar-blue">CG</div>
+              <div>
+                <p class="testi-nm">Cheyanby Guiao</p>
+                <p class="testi-positon">Web Development Student</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testi-blok">
+            <div class="star-ratng">★★★★★</div>
+            <p class="testi-txt">"Jethro is one among the dedicated students in our web dev class. He asks good questions, takes feedback seriously, and I can see clear improvement week to week."</p>
+            <footer class="testi-persn">
+              <div class="testi-avtr avatar-gray">JY</div>
+              <div>
+                <p class="testi-nm">Jan Yamzon</p>
+                <p class="testi-positon">Classmate</p>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testi-blok">
+            <div class="star-ratng">★★★★</div>
+            <p class="testi-txt">"We worked together on a school group project and Jethro colunteered to take care of all the front-end. He stayed late fixing bugs and made sure it worked on mobile before we submitted. Solid teammate."</p>
+            <footer class="testi-persn">
+              <div class="testi-avtr avatar-light">RC</div>
+              <div>
+                <p class="testi-nm">Rafael Cruz</p>
+                <p class="testi-positon">Classmate</p>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <span>made by James Jethro Dizon · 2026</span>
+    <div class="footer-navlinks">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="projects.html">projects</a>
+      <a href="blog.html">blog</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script>
+    function togglePost(id, btn) {
+      var el = document.getElementById(id);
+      var open = el.classList.toggle('open');
+      btn.textContent = open ? 'close ✕' : 'read more';
+    }
+  </script>
+  
+</body>
+</html>
